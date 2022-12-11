@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@util/*": ["./src/util/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@models/*": ["./src/models/*"],
+      "@middlewares/*": ["./src/middlewares/*"],
+      "@types": ["./src/types"]
+    },
+    "checkJs": true,
+    "declaration": true
+  }
+}
