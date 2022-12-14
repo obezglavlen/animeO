@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react",
     "paths": {
-      "@util/*": ["./src/util/*"],
-      "@styles/*": ["./src/styles/*"],
-      "@models/*": ["./src/models/*"],
-      "@middlewares/*": ["./src/middlewares/*"],
-      "@types": ["./src/types"]
-    },
-    "checkJs": true,
-    "declaration": true
+      "@util/*": ["util/*"],
+      "@models/*": ["models/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@types": ["types"],
+      "@styles/*": ["styles/*"],
+      "@components/*": ["components/*"]
+    }
   }
 }

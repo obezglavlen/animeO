@@ -1,0 +1,31 @@
+.container {
+  background-color: white;
+  border-radius: 2px
+}
+
+.input {
+  font-size: 20px;
+  line-height: 35px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 2px 2px 0 0;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input:focus ~ .line {
+  width: 100%;
+  transition-duration: 0.3s;
+}
+
+.line {
+  height: 5px;
+  width: 0;
+  transition: width ease-in-out;
+  transition-duration: 0.1s;
+  background-color: blueviolet;
+
+  border-radius: 0 0 2px 2px;
+}
